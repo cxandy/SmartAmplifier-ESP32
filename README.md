@@ -30,19 +30,19 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Power Amplifier: TAS5805
  
 ### Pin Definitions:
-Function	ESP32 Pin	ESP32-S3 Pin
-I2S CLK	26	14
-I2S DATA	22	16
-I2S WS	25	15
-PSRAM Reserved	16, 1	35, 36, 37
-TAS5805 SDA	21	8
-TAS5805 SCL	27	9
-TAS5805 PWDN	33	17
-TAS5805 FAULT	34	18
+Function	     |  ESP32 Pin
+I2S CLK     	    GPIO13
+I2S DATA	        GPIO 27
+I2S WS	          GPIO33
+TAS5805 SDA	     GPIO14
+TAS5805 SCL	     GPIO26
+TAS5805 PWDN	    GPIO12
+TAS5805 I2C ADDR 0x2D
 
-
-### Power Interface: DC 6mm barrel/2mm pin (commonly 5.5/2.5mm plug)
-### Power Requirements: Select an adapter based on speaker power and impedance. For example, calculate voltage and current for driving 2x10W/8Ω speakers.
+### Power Interface
+ DC 6mm barrel/2mm pin (commonly 5.5/2.5mm plug)
+### Power Requirements
+ Select an adapter based on speaker power and impedance. For example, calculate voltage and current for driving 2x10W/8Ω speakers.
 
 ### Usage Notes
  Power Connection: Do not connect Vin and USB simultaneously, as this may damage the USB port.

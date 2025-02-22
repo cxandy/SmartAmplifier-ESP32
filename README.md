@@ -17,13 +17,18 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Integrates an external I2S DAC for high-quality, hi-fi audio playback.
  Seamlessly integrates with Home Assistant for smart home control.
  Combines high power output and memory capacity to handle complex audio streaming effortlessly.
+ 
 #### 2.Squeezelite-ESP32 
  Originally designed as a multimedia player for Logitech Media Server (LMS).
  Supports Spotify wireless playback via SpotifyConnect.
  Compatible with AirPlay (for iPhone, iTunes, etc.), including multi-room synchronization (AirPlay 1 only).
  Supports traditional Bluetooth connectivity, compatible with iPhone and Android devices 
  Can be flashed directly via a browser using the Squeezelite-ESP32 installer.
+ [https://sle118.github.io/squeezelite-esp32-installer/]
+ 
 #### 3.yoRadio
+ Web-radio based on ESP32-audioI2S library
+##### [https://github.com/e2002/yoradio] See wiki[https://github.com/e2002/yoradio/wiki] for details
 
 ### Hardware Specifications
  Main Chip: ESP32-WROVER (with 4MB PSRAM)

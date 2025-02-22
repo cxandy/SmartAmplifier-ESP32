@@ -1,5 +1,5 @@
 # SmartAmplifier-ESP32 
-### High-Fidelity Class-D Smart Audio Amplifier
+ High-Fidelity Class-D Smart Audio Amplifier
 
 ## Where to get:
 ## [https://www.ebay.com/usr/4917450]

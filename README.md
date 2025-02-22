@@ -35,14 +35,14 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Power Amplifier: TAS5805
  
 ### Pin Definitions:
-#### Function	     |  ESP32 Pin
-##### I2S CLK     	    GPIO13
-##### I2S DATA	        GPIO 27
-##### I2S WS	          GPIO33
-##### TAS5805 SDA	     GPIO14
-##### TAS5805 SCL	     GPIO26
-##### TAS5805 PWDN	    GPIO12
-##### TAS5805 I2C ADDR 0x2D
+#### Function	     |     ESP32 Pin
+##### I2S CLK     	|     GPIO13
+##### I2S DATA	    |     GPIO27
+##### I2S WS	      |     GPIO33
+##### TAS5805 SDA	 |     GPIO14
+##### TAS5805 SCL	 |     GPIO26
+##### TAS5805 PWDN	|     GPIO12
+##### TAS5805 I2C ADDR | 0x2D
 
 ### Power Interface
  DC 6mm barrel/2mm pin (commonly 5.5/2.5mm plug)

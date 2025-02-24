@@ -1,9 +1,6 @@
 # SmartAmplifier-ESP32 (SmartAmp)
  High-Fidelity Class-D Smart Audio Amplifier
 
-## Where to get:
-## [https://www.tindie.com/stores/cxandy/]
-
 ![Smart Amplifier ESP32](photos/102.jpg)
 ![Smart Amplifier ESP32](photos/003-800.jpg)
 
@@ -12,6 +9,9 @@
 #### 12V input: 2x4Ω / 15W
 #### 22V input: 2x8Ω / 23W
 The combination of high power output and ample PSRAM enables it to effortlessly drive full-sized speakers and efficiently handle audio applications. SmartAmplifier-ESP32 supports various firmware installations (e.g., Squeezelite, YoRadio, ESPHome), offering exceptional performance and versatility. In standby mode, its average power consumption is below 1W, showcasing excellent energy efficiency.
+
+### Where to get:
+#### [https://www.tindie.com/stores/cxandy/]
 
 ### Core Features and Firmware Support
 #### 1.ESPHome 

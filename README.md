@@ -5,7 +5,7 @@
 ## [https://www.ebay.com/usr/4917450]
 
 ![Smart Amplifier ESP32](photos/102.jpg)
-![Smart Amplifier ESP32](photos/003.jpg)
+![Smart Amplifier ESP32](photos/003-800.jpg)
 
 ### Product Overview
  SmartAmplifier-ESP32 is a compact intelligent audio amplifier powered by the ESP32-WROVER chipset, featuring built-in PSRAM. Its power amplification is driven by the TAS5805M module, delivering the following output capabilities:

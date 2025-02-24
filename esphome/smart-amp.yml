@@ -1,0 +1,84 @@
+esphome:
+  name: smart-amp
+  comment: "SmartAmp v1.0"  
+  
+  includes:
+    - tas5805m.h
+  platformio_options:
+    lib_deps: "Wire"
+  on_boot:
+    priority: 800
+    then:
+    - media_player.volume_set:
+        id: smart_amp
+        volume: 10%    ## Set a volume limit just to be safe...
+
+esp32:
+  board: esp-wrover-kit
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_pass
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "SmartAmp Fallback Hotspot"
+    password: "12345678"
+
+captive_portal:
+    
+switch:
+  - platform: custom
+    lambda: |-
+      auto tas5805 = new TAS5805();
+      App.register_component(tas5805);
+      return {tas5805};
+    switches:
+      name: "Enable Amp"
+
+i2c:
+  sda: GPIO14
+  scl: GPIO26
+  scan: True
+  id: i2c_component
+
+i2s_audio:
+  i2s_lrclk_pin: GPIO33
+  i2s_bclk_pin: GPIO13
+
+media_player:
+  - platform: i2s_audio
+    name: "SmartAmp 1.0"
+    id: smart_amp
+    dac_type: external
+    i2s_dout_pin: GPIO27
+    mode: stereo    
+    
+sensor:
+  - platform: wifi_signal # Reports the WiFi signal strength/RSSI in dB
+    name: "WiFi Signal dB"
+    id: wifi_signal_db
+    update_interval: 60s
+    entity_category: "diagnostic"
+
+  - platform: copy # Reports the WiFi signal strength in %
+    source_id: wifi_signal_db
+    name: "WiFi Signal Percent"
+    filters:
+      - lambda: return min(max(2 * (x + 100.0), 0.0), 100.0);
+    unit_of_measurement: "Signal %"
+    entity_category: "diagnostic"
+    device_class: ""

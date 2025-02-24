@@ -1,4 +1,4 @@
-# SmartAmplifier-ESP32 
+# SmartAmplifier-ESP32 (SmartAmp)
  High-Fidelity Class-D Smart Audio Amplifier
 
 ## Where to get:
@@ -8,7 +8,7 @@
 ![Smart Amplifier ESP32](photos/003-800.jpg)
 
 ### Product Overview
- SmartAmplifier-ESP32 is a compact intelligent audio amplifier powered by the ESP32-WROVER chipset, featuring built-in PSRAM. Its power amplification is driven by the TAS5805M module, delivering the following output capabilities:
+ SmartAmp is a compact intelligent audio amplifier powered by the ESP32-WROVER chipset, featuring built-in PSRAM. Its power amplification is driven by the TAS5805M module, delivering the following output capabilities:
 #### 12V input: 2x4Ω / 15W
 #### 22V input: 2x8Ω / 23W
 The combination of high power output and ample PSRAM enables it to effortlessly drive full-sized speakers and efficiently handle audio applications. SmartAmplifier-ESP32 supports various firmware installations (e.g., Squeezelite, YoRadio, ESPHome), offering exceptional performance and versatility. In standby mode, its average power consumption is below 1W, showcasing excellent energy efficiency.
@@ -55,4 +55,4 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Audio Streaming Buffer: Ensure proper buffer settings for stable playback.
 
 ### Application Scenarios
- SmartAmplifier-ESP32 combines the robust computational power of the ESP32 with a high-fidelity Class-D amplifier, making it ideal for developing premium audio products and smart home integration projects. Whether for audio enthusiasts or developers, SmartAmplifier-ESP32 stands out as an excellent choice due to its powerful hardware and flexible software support.
+ SmartAmp combines the robust computational power of the ESP32 with a high-fidelity Class-D amplifier, making it ideal for developing premium audio products and smart home integration projects. Whether for audio enthusiasts or developers, SmartAmp stands out as an excellent choice due to its powerful hardware and flexible software support.

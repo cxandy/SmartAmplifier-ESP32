@@ -1,4 +1,6 @@
-## Install ESPHOME
+# Tas5805 For ESPHOME
+
+## How to install ESPHOME
 ### 1.install python
 ### 2.pip install esphome
 ### 3.esphome run smart-app.yaml

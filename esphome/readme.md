@@ -1,6 +1,6 @@
 # TAS5805M works with ESPHome 
 (https://www.ti.com/product/TAS5805M)
-(/photos/201.jpg)(/photos/202.jpg)
+[/photos/201.jpg][/photos/202.jpg]
 ## How to install
 ### 1.install python
 ### 2.pip install esphome

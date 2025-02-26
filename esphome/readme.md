@@ -1,5 +1,5 @@
 # TAS5805M works with ESPHome 
-![TAS5805M](https://www.ti.com/product/TAS5805M)
+get [TAS5805M](https://www.ti.com/product/TAS5805M) more info
 
 ![Smart Amplifier ESP32](/photos/201.jpg)
 ![Smart Amplifier ESP32](/photos/202.jpg)

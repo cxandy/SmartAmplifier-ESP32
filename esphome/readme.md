@@ -3,6 +3,7 @@
 
 ![Smart Amplifier ESP32](/photos/201.jpg)
 ![Smart Amplifier ESP32](/photos/202.jpg)
+
 ## How to install
 ### 1.install python
 ### 2.pip install esphome

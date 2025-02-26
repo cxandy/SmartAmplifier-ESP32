@@ -1,6 +1,5 @@
-# Tas5805 For ESPHOME
-
-## How to install ESPHOME
+# TAS5805M works with ESPHome (https://www.ti.com/product/TAS5805M)
+## How to install
 ### 1.install python
 ### 2.pip install esphome
 ### 3.esphome run smart-app.yaml

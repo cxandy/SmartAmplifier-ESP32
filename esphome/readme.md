@@ -1,6 +1,8 @@
 # TAS5805M works with ESPHome 
 (https://www.ti.com/product/TAS5805M)
-![Smart Amplifier ESP32](/photos/201.jpg)  ![Smart Amplifier ESP32](/photos/202.jpg)
+
+![Smart Amplifier ESP32](/photos/201.jpg)
+![Smart Amplifier ESP32](/photos/202.jpg)
 ## How to install
 ### 1.install python
 ### 2.pip install esphome

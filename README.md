@@ -12,6 +12,7 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
 
 ### Where to get:
 #### [https://www.tindie.com/stores/cxandy/]
+![Tindie](img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55")
 
 ### Core Features and Firmware Support
 #### 1.ESPHome 

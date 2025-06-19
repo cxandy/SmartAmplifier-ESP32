@@ -26,7 +26,7 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Supports traditional Bluetooth connectivity, compatible with iPhone and Android devices 
  Can be flashed directly via a browser using the Squeezelite-ESP32 installer.
  [https://sle118.github.io/squeezelite-esp32-installer/]
-For details, please click [[https://sle118.github.io/squeezelite-esp32-installer/](https://github.com/cxandy/SmartAmplifier-ESP32/Squeezelite)]
+For details, please click [[https://sle118.github.io/squeezelite-esp32-installer/](https://github.com/cxandy/SmartAmplifier-ESP32/Squeezelite/Readme.md)]
  
 #### 3.yoRadio
  Web-radio based on ESP32-audioI2S library

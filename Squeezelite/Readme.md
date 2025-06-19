@@ -10,14 +10,18 @@
 ![Smart Amplifier ESP32](photos/A-004.jpg)
 #### Next step
 ![Smart Amplifier ESP32](photos/A-005.jpg)
-#### Next step
+#### Complete
 ![Smart Amplifier ESP32](photos/A-006.jpg)
 
 ###
 ### 2. Config Squeezelite-ESP32 Firmware
-#### Remove usb, Only Insert DC.
+###  == Remove usb, Only Insert DC.
 ![Smart Amplifier ESP32](photos/B-001.jpg)
 #### Download File:[[https://github.com/cxandy/SmartAmplifier-ESP32/Squeezelite/nvs_config_squeezelite_json.txt](https://github.com/cxandy/SmartAmplifier-ESP32/blob/main/Squeezelite/nvs_config_squeezelite_json.txt)] 
 #### upload 
 ![Smart Amplifier ESP32](photos/B-002.jpg)
+#### Setup WIFI 
+![Smart Amplifier ESP32](photos/B-003.jpg)
+#### Last Step
+![Smart Amplifier ESP32](photos/B-004.jpg)
 

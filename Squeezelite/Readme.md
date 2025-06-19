@@ -25,3 +25,7 @@
 #### Last Step
 ![Smart Amplifier ESP32](photos/B-004.jpg)
 
+### If the menu item NVSEDIT cann't be found
+![Smart Amplifier ESP32](photos/C-001.jpg)
+
+

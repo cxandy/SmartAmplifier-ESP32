@@ -28,7 +28,7 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  [https://sle118.github.io/squeezelite-esp32-installer/]
 #### For details, please click [[How to install Squeezelite](Squeezelite/)]
 
-####
+####   
 #### 3.yoRadio
  Web-radio based on ESP32-audioI2S library
 ##### [https://github.com/e2002/yoradio] See wiki[https://github.com/e2002/yoradio/wiki] for details

@@ -25,8 +25,8 @@ The combination of high power output and ample PSRAM enables it to effortlessly 
  Compatible with AirPlay (for iPhone, iTunes, etc.), including multi-room synchronization (AirPlay 1 only).
  Supports traditional Bluetooth connectivity, compatible with iPhone and Android devices 
  Can be flashed directly via a browser using the Squeezelite-ESP32 installer.
- [https://sle118.github.io/squeezelite-esp32-installer/]
-#### For details, please click [[How to install Squeezelite](Squeezelite/)]
+ [https://sle118.github.io/squeezelite-esp32-installer/] 
+ For details, please click [[How to install Squeezelite](Squeezelite/)]
 
 ####   
 #### 3.yoRadio

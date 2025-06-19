@@ -17,7 +17,7 @@
 ### 2. Config Squeezelite-ESP32 Firmware
 #### Remove usb, Only Insert DC.
 ![Smart Amplifier ESP32](photos/B-001.jpg)
-#### Download File:[Squeezelite/nvs_config_squeezelite_json.txt]
+#### Download File:(Squeezelite/nvs_config_squeezelite_json.txt) 
 #### upload 
 ![Smart Amplifier ESP32](photos/B-002.jpg)
 

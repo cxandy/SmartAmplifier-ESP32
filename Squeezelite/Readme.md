@@ -13,7 +13,8 @@
 #### Next step
 ![Smart Amplifier ESP32](photos/A-006.jpg)
 
-### 1. Config Squeezelite-ESP32 Firmware
+###
+### 2. Config Squeezelite-ESP32 Firmware
 
 ![Smart Amplifier ESP32](photos/B-001.jpg)
 #### Next step

@@ -1,0 +1,6 @@
+{
+  "dac_config": "model=I2S,bck=13,ws=33,do=27,sda=14,scl=26,i2c=45",
+  "dac_controlset": "{\"init\":[{\"reg\":3,\"val\":2},{\"reg\":3,\"val\":3}],\"poweron\":[{\"reg\":3,\"val\":3}],\"poweroff\":[{\"reg\":3,\"val\":0}]}",
+  "set_GPIO": "12=vcc",
+  "actrls_config": "[{\"gpio\":0, \"type\":\"BUTTON_LOW\", \"pull\":true, \"debounce\":40, \"long_press\":1000, \"normal\":{\"pressed\":\"ACTRLS_TOGGLE\"},\"longpress\":{\"pressed\":\"ACTRLS_POWER\"}}]"
+}
